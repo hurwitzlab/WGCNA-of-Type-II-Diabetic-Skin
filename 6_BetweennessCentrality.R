@@ -9,6 +9,8 @@ TOM_NonT2DM = TOMsimilarityFromExpr(datExprNonT2DM, power = 7)
 TOM_T2DM = TOMsimilarityFromExpr(datExprT2DM, power = 7)
 TOM = TOMsimilarityFromExpr(datExpr, power = 7)
 
+inModule5 = (moduleColors == module5)
+inModule6 = (moduleColors == module6)
 TOM_NonT2DM_lightgreen = TOM_NonT2DM[inModule5, inModule5]
 TOM_T2DM_lightgreen = TOM_T2DM[inModule5, inModule5]
 TOM_lightgreen = TOM[inModule5, inModule5]
